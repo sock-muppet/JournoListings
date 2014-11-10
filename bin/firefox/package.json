@@ -1,0 +1,9 @@
+{
+  "name": "journolistings",
+  "title": "JournoListings",
+  "id": "90380b9b-465f-4608-970f-fc77e470fcbc",
+  "description": "Calls out articles authored by journalists in private journalistic mailing lists.",
+  "author": "@Sock_Muppet",
+  "license": "MIT",
+  "version": "1.0"
+}

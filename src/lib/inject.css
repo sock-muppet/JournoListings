@@ -1,0 +1,94 @@
+/* reset what we can */
+.journolisting-reset {
+  animation : none;
+  background : none;
+  background-size : auto auto;
+  border : none;
+  bottom : auto;
+  box-shadow : none;
+  box-sizing : content-box;
+  caption-side : top;
+  clear : none;
+  clip : auto;
+  color : inherit;
+  columns : auto;
+  content : normal;
+  counter-increment : none;
+  counter-reset : none;
+  cursor : auto;
+  direction : ltr;
+  display : inline;
+  empty-cells : show;
+  float : none;
+  font-family : inherit;
+  font-size : medium;
+  height : auto;
+  hyphens : none;
+  left : auto;
+  letter-spacing : normal;
+  line-height : normal;
+  list-style : none;
+  margin : 0;
+  max-height : none;
+  max-width : none;
+  min-height : 0;
+  min-width : 0;
+  opacity : 1;
+  overflow : visible;
+  padding : 0;
+  page-break-after : auto;
+  page-break-before : auto;
+  page-break-inside : auto;
+  perspective : none;
+  perspective-origin : 50% 50%;
+  position : static;
+  right : auto;
+  tab-size : 8;
+  table-layout : auto;
+  text-align : inherit;
+  text-align-last : auto;
+  text-decoration : none;
+  text-indent : 0;
+  text-shadow : none;
+  text-transform : none;
+  top : auto;
+  transform : none;
+  transform-style : flat;
+  transition : none;
+  transition-delay : 0s;
+  transition-duration : 0s;
+  transition-property : none;
+  transition-timing-function : ease;
+  unicode-bidi : normal;
+  vertical-align : baseline;
+  visibility : visible;
+  white-space : normal;
+  widows : 0;
+  width : auto;
+  word-spacing : normal;
+  z-index : auto;
+}
+
+.journolisting-banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 50px;
+
+  /* just some easy breasy beautiful cover colors */
+  background-color: #800;
+  border-bottom: 3px solid #3f0000;
+  color: white;
+
+  font-size: 20px;
+  text-align: center;
+  padding-top: 25px;
+  z-index: 2147483647;
+
+  cursor: pointer;
+
+  /* get on that sweet sweet Verdana */
+  font-family: verdana, arial, sans-serif;
+}

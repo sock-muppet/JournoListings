@@ -1,0 +1,33 @@
+{
+  "name": "JournoListings",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "Calls out articles authored by journalists in private journalistic mailing lists.",
+  "homepage_url": "http://github.com/sock-muppet/JournoListings",
+  "default_locale": "en",
+  "permissions": [
+    "https://*/*",
+    "http://*/*"
+  ],
+  "web_accessible_resources": [
+    "src/lib/inject.js",
+    "src/lib/sites.js",
+    "src/lib/lists/gamejournopros.js",
+    "src/lib/lists/journolist.js",
+    "src/lib/lists/gamechanger-salon.js"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*/*",
+        "http://*/*"
+      ],
+      "js": [
+        "src/main.js"
+      ],
+      "css": [
+        "src/lib/inject.css"
+      ]
+    }
+  ]
+}
