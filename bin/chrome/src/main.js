@@ -27,6 +27,7 @@ function injectAllScript()
     injectScript( chrome.extension.getURL( '/src/lib/lists/gamejournopros.js' ), 'body' );
     injectScript( chrome.extension.getURL( '/src/lib/lists/journolist.js' ), 'body' );
     injectScript( chrome.extension.getURL( '/src/lib/lists/gamechanger-salon.js' ), 'body' );
+    injectScript( chrome.extension.getURL( '/src/lib/lists/gawker.js' ), 'body' );
 
     injectScript( chrome.extension.getURL( '/src/lib/inject.js' ), 'body' );
     // site rules

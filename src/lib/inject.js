@@ -6,11 +6,18 @@ var _window = typeof unsafeWindow === 'undefined' ? window : unsafeWindow;
  * Returns all the lists that can be used.  When toggling is added
  * then this function will need to check an enabled/disabled flag
  * to filter out the results (and auto-detection would be nice btw).
+ * @var useSuppLists
  * @returns {*[]}
  */
-function getValidLists()
+function getValidLists( skipSuppLists )
 {
-  return [_window.JLISTS_GAMEJOURNOPROS, _window.JLISTS_JOURNOLIST, _window.JLISTS_GAMECHANGER_SALON];
+    skipSuppLists = skipSuppLists || false;
+    var baseLists = [_window.JLISTS_GAMEJOURNOPROS, _window.JLISTS_JOURNOLIST, _window.JLISTS_GAMECHANGER_SALON ];
+    if ( !skipSuppLists )
+    {
+        baseLists.push( _window.GAWKERMEDIA );
+    }
+    return baseLists;
 }
 
 /**
@@ -97,6 +104,7 @@ function matchAuthorInjectEthics( authorStr )
     {
         var list = lists[i];
         var authFound = arrayHasVal( list.members, authorStr );
+        console.log( authorStr + ' ' + authFound );
         if ( authFound )
         {
             injectEthics( list );

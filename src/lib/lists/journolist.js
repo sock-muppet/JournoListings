@@ -7,9 +7,9 @@ _window.JLISTS_JOURNOLIST =
     "name":             "JournoList",
     "desc":             "Left-Leaning Political Journalists and Media Outlets",
     "source":           "http://www.freerepublic.com/focus/bloggers/2561229/posts?page=1",
-    "background-color": "#800",
-    "border-color":     "#3f0000",
-    "font-color":       "#ffffff",
+    "backgroundColor":  "#800",
+    "borderColor":      "#3f0000",
+    "fontColor":        "#ffffff",
     "members":          [
         "Adam Doster",
         "Adam Serwer",

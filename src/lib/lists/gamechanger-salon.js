@@ -7,9 +7,9 @@ _window.JLISTS_GAMECHANGER_SALON =
     "name":             "Gamechanger Salon",
     "desc":             "",
     "source":           "http://mediatrackers.org/national/2014/08/04/inside-gamechanger-salon-lefts-action-network",
-    "background-color": "#083188",
-    "border-color":     "#061d3f",
-    "font-color":       "#ffffff",
+    "backgroundColor":  "#083188",
+    "borderColor":      "#061d3f",
+    "fontColor":        "#ffffff",
     "members":          [
         "Kat Aaron",
         "Ibrahim Abdul-Matin",

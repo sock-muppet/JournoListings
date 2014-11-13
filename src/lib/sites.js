@@ -396,6 +396,62 @@ _window.JLISTS_SITE_RULES = {
             }
         }
     ],
+    'jezebel.com':             [
+        {
+            getAuthor: function ()
+            {
+                return qSel( '.author.vcard a' );
+            }
+        }
+    ],
+    'deadspin.com':             [
+        {
+            getAuthor: function ()
+            {
+                return qSel( '.author.vcard a' );
+            }
+        }
+    ],
+    'gawker.com':               [
+        {
+            getAuthor: function ()
+            {
+                return qSel( '.author.vcard a' );
+            }
+        }
+    ],
+    'gizmodo.com':              [
+        {
+            getAuthor: function ()
+            {
+                return qSel( '.author.vcard a' );
+            }
+        }
+    ],
+    'io9.com':                  [
+        {
+            getAuthor: function ()
+            {
+                return qSel( '.author.vcard a' );
+            }
+        }
+    ],
+    'jalopnik.com':             [
+        {
+            getAuthor: function ()
+            {
+                return qSel( '.author.vcard a' );
+            }
+        }
+    ],
+    'lifehacker.com':           [
+        {
+            getAuthor: function ()
+            {
+                return qSel( '.author.vcard a' );
+            }
+        }
+    ],
     'laweekly.com':          [
         {
             getAuthor: function ()
